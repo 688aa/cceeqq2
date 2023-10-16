@@ -1,0 +1,98 @@
+if ($gameParty.hasItem($dataItems[1])) {
+    // 如果玩家有ID为1的道具
+$gameScreen.showPicture(1, "ccaas2", 0, 0, 0, 42, 42, 255, 0);
+}
+
+
+if ($gameVariables.value(71) === 1 ) {
+$gameVariables.setValue(74, 1); 
+$gameVariables.setValue(75, 2); 
+$gameVariables.setValue(76, 3); 
+$gameVariables.setValue(77, 4); 
+$gameVariables.setValue(78, 5); 
+$gameVariables.setValue(79, 6); 
+}
+
+if ($gameVariables.value(71) === 2 ) {
+$gameVariables.setValue(74, 1); 
+$gameVariables.setValue(75, 2); 
+$gameVariables.setValue(76, 3); 
+$gameVariables.setValue(77, 4); 
+$gameVariables.setValue(78, 5); 
+$gameVariables.setValue(79, 6); 
+}
+
+if ($gameVariables.value(71) === 3 ) {
+$gameVariables.setValue(74, 1); 
+$gameVariables.setValue(75, 2); 
+$gameVariables.setValue(76, 3); 
+$gameVariables.setValue(77, 4); 
+$gameVariables.setValue(78, 5); 
+$gameVariables.setValue(79, 6); 
+}
+
+if ($gameVariables.value(71) === 4 ) {
+$gameVariables.setValue(74, 1); 
+$gameVariables.setValue(75, 2); 
+$gameVariables.setValue(76, 3); 
+$gameVariables.setValue(77, 4); 
+$gameVariables.setValue(78, 5); 
+$gameVariables.setValue(79, 6); 
+}
+
+if ($gameVariables.value(71) === 5 ) {
+$gameVariables.setValue(74, 1); 
+$gameVariables.setValue(75, 2); 
+$gameVariables.setValue(76, 3); 
+$gameVariables.setValue(77, 4); 
+$gameVariables.setValue(78, 5); 
+$gameVariables.setValue(79, 6); 
+}
+
+if ($gameVariables.value(71) === 6 ) {
+$gameVariables.setValue(74, 1); 
+$gameVariables.setValue(75, 2); 
+$gameVariables.setValue(76, 3); 
+$gameVariables.setValue(77, 4); 
+$gameVariables.setValue(78, 5); 
+$gameVariables.setValue(79, 6); 
+}
+
+if ($gameVariables.value(71) === 7 ) {
+$gameVariables.setValue(74, 1); 
+$gameVariables.setValue(75, 2); 
+$gameVariables.setValue(76, 3); 
+$gameVariables.setValue(77, 4); 
+$gameVariables.setValue(78, 5); 
+$gameVariables.setValue(79, 6); 
+}
+
+if ($gameVariables.value(71) === 8 ) {
+$gameVariables.setValue(74, 1); 
+$gameVariables.setValue(75, 2); 
+$gameVariables.setValue(76, 3); 
+$gameVariables.setValue(77, 4); 
+$gameVariables.setValue(78, 5); 
+$gameVariables.setValue(79, 6); 
+}
+
+if ($gameVariables.value(71) === 9 ) {
+$gameVariables.setValue(74, 1); 
+$gameVariables.setValue(75, 2); 
+$gameVariables.setValue(76, 3); 
+$gameVariables.setValue(77, 4); 
+$gameVariables.setValue(78, 5); 
+$gameVariables.setValue(79, 6); 
+}
+
+if ($gameVariables.value(71) === 10 ) {
+$gameVariables.setValue(74, 1); 
+$gameVariables.setValue(75, 2); 
+$gameVariables.setValue(76, 3); 
+$gameVariables.setValue(77, 4); 
+$gameVariables.setValue(78, 5); 
+$gameVariables.setValue(79, 6); 
+}
+
+ P_CALL_KEY_BIND 55 right 1 ON
+ P_CALL_KEY_BIND 56 left 1 ON
