@@ -1,0 +1,35 @@
+    $gameScreen.showPicture(1, "ccaas2", 0, 0, 0, 42, 42, 255, 0);
+var pictureFileName = "zxzx" + String($gameVariables.value(1));
+$gameScreen.showPicture(1, pictureFileName, 0, 0, 0, 100, 100, 255, 1);
+
+卡類 卡種確認 按順序進行十次 
+點23進行一次
+
+如果變數1=1就是ssr 2=sr 3=r 4=n
+變數2決定是同等的哪一張
+
+變數三=10 每按一下23圖-1
+
+如果變3=10
+抓機率用1=n(稀有確認ok)
+隨機變數2(卡片確認ok)
+
+if ($gameVariables.value(5) === 1) {
+    $gameScreen.showPicture(1, "ccaas2", 0, 0, 0, 42, 42, 255, 0);
+
+$gameScreen.erasePicture(2); 
+$gameScreen.erasePicture(3);
+
+}
+
+
+
+if ($gameVariables.value(53) <= 5 && $gameVariables.value(53) >= 1) {
+    var pictureFileName = "ssr" + String($gameVariables.value(63));
+$gameScreen.showPicture(23, pictureFileName, 0, 0, 0, 100, 100, 255, 1);
+}
+
+
+    $gameScreen.showPicture(23, "ccaas2", 0, 0, 0, 42, 42, 255, 0);
+var pictureFileName = "ssr" + String($gameVariables.value(63));
+$gameScreen.showPicture(1, pictureFileName, 0, 0, 0, 100, 100, 255, 1);
